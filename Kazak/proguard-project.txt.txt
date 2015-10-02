@@ -1,0 +1,12 @@
+-dontwarn org.apache.lang.**
+-dontwarn com.facebook.android.BuildConfig
+-dontwarn com.facebook.android.**
+-dontwarn
+-keepattributes SourceFile,LineNumberTable
+-keep class com.parse.*{ *; }
+-dontwarn com.parse.**
+-dontwarn com.squareup.picasso.**
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-dontwarn org.antlr.runtime.**

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/background_kui">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/olen_info"/>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/olen_info"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#2e2e2e">
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BALBYRAUYN"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/button_play"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/text_view_ispolnitel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kurmangazy"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/button_share"
+            android:layout_toEndOf="@+id/imageView5" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:id="@+id/button_play"
+            android:background="@drawable/makal_play"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/button_share"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share"
+            android:textColor="#fff"
+            android:id="@+id/button_share"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/button_play" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/ornament_kui"
+            android:layout_alignTop="@+id/button_share"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

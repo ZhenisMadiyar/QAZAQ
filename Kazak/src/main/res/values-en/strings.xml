@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QAZAQ</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="setting">Settings</string>
+    <string name="language">Language</string>
+
+    <string name="makal_act">Makal-matelder</string>
+    <string name="national_traditions">National traditions</string>
+    <string name="national_games">National games</string>
+    <string name="writers">Writers</string>
+    <string name="kuiler">Kui</string>
+    <string name="ertegiler">Tales</string>
+    <string name="database">database_eng.sqlite</string>
+    <string name="favourite">My favourite</string>
+
+    <string-array name="writer_name">
+        <item>Abay Qunanbaiuli</item>
+        <item>Akhmet Baitursynov</item>
+        <item>Dulat Mirzhakypov</item>
+        <item>Fariza Ongarsynova</item>
+        <item>Iliyas Zhansugirov</item>
+        <item>Kasym Amanzholov</item>
+        <item>Magzhan Zhumabayev</item>
+        <item>Mukagali Makataiyev</item>
+        <item>Mukhtar Shakhanov</item>
+        <item>Tumanbay Moldagaliyev</item>
+        <item>Saken Seifulin</item>
+        <item>Shakarim Kudaibergenuly</item>
+        <item>Sultanmakhmut Toraigyrov</item>
+        <item>Tolegen Aibergenov</item>
+        <item>Ybyrai Altynsarin</item>
+        <item>Zhambyl Zhabaiyev</item>
+    </string-array>
+    <string-array name="tabsName">
+        <item>Профиль</item>
+        <item>Карта</item>
+        <item>Поиск</item>
+        <item>Социальный</item>
+    </string-array>
+    <array name="category_sounds">
+        <item>@raw/_kz_adam</item>
+        <item>@raw/_kz_akyldykyk</item>
+        <item>@raw/_kz_ar_namys</item>
+        <item>@raw/_kz_bilim</item>
+        <item>@raw/_kz_dostyk</item>
+        <item>@raw/_kz_til</item>
+        <item>@raw/_kz_enbek</item>
+        <item>@raw/_kz_otbasy</item>
+        <item>@raw/_kz_otan</item>
+        <item>@raw/_kz_otirik</item>
+    </array>
+    <string name="market_error">Could not launch the market</string>
+    <string name="makal_sound">Could not find proverb audio</string>
+    <string name="about">About program</string>
+    <string name="buffering">Buffering...</string>
+    <string name="internet_connection">У вас нет доступа к интернету</string>
+</resources>

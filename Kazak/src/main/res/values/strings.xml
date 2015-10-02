@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QAZAQ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="database">database_kk.sqlite</string>
+
+    <string name="setting">Баптаулар</string>
+    <string name="language">Тілдер</string>
+    <string name="makal_act">Мақал-мәтелдер</string>
+    <string name="national_traditions">Салт-дәстүрлер</string>
+    <string name="national_games">Ұлттық ойындар</string>
+    <string name="writers">Ақын-жазушылар</string>
+    <string name="kuiler">Күйлер</string>
+    <string name="ertegiler">Ертегілер</string>
+
+    <string name="favourite">Таңдаулы</string>
+
+    <string-array name="tabsName">
+        <item>Профиль</item>
+        <item>Карта</item>
+        <item>Поиск</item>
+        <item>Социальный</item>
+    </string-array>
+
+    <string name="market_error">Play Market-те табылмады</string>
+    <string name="makal_sound">Бұл мақалдың аудиосы табылмады</string>
+    <string name="about">Бағдарлама жайлы</string>
+    <string name="buffering">Күте тұрыңыз...</string>
+    <string name="internet_connection">Сіздің смартфоныңызда ғаламтормен байланыс жоқ</string>
+    <string-array name="writer_name">
+        <item>Абай Құнанбайұлы</item>
+        <item>Ахмет Байтұрсынов</item>
+        <item>Дулат Міржақыпов</item>
+        <item>Фариза Оңғарсынова</item>
+        <item>Ілияс Жансүгіров</item>
+        <item>Қасым Аманжолов</item>
+        <item>Мағжан Жұмабаев</item>
+        <item>Мұқағали Мақатаев</item>
+        <item>Мұхтар Шаханов</item>
+        <item>Тұманбай Молдағалиев</item>
+        <item>Сәкен Сейфуллин</item>
+        <item>Шәкәрім Құдайбердіұлы</item>
+        <item>Сұлтанмахмұт Торайғыров</item>
+        <item>Төлеген Айбергенов</item>
+        <item>Ыбырай Алтынсарин</item>
+        <item>Жамбыл Жабаев</item>
+    </string-array>
+    <array name="category_sounds">
+        <item>@raw/_kz_adam</item>
+        <item>@raw/_kz_akyldykyk</item>
+        <item>@raw/_kz_ar_namys</item>
+        <item>@raw/_kz_bilim</item>
+        <item>@raw/_kz_dostyk</item>
+        <item>@raw/_kz_til</item>
+        <item>@raw/_kz_enbek</item>
+        <item>@raw/_kz_otbasy</item>
+        <item>@raw/_kz_otan</item>
+        <item>@raw/_kz_otirik</item>
+    </array>
+
+</resources>

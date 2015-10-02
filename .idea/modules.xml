@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColorPickerPreference/ColorPickerPreference.iml" filepath="$PROJECT_DIR$/ColorPickerPreference/ColorPickerPreference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kazak/Kazak.iml" filepath="$PROJECT_DIR$/Kazak/Kazak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MadiApps.iml" filepath="$PROJECT_DIR$/MadiApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sample/Sample.iml" filepath="$PROJECT_DIR$/Sample/Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPager3D/ViewPager3D.iml" filepath="$PROJECT_DIR$/ViewPager3D/ViewPager3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/color_library/color_library.iml" filepath="$PROJECT_DIR$/color_library/color_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colorpicker_lib/colorpicker_lib.iml" filepath="$PROJECT_DIR$/colorpicker_lib/colorpicker_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libary/libary.iml" filepath="$PROJECT_DIR$/libary/libary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libaryColor/libaryColor.iml" filepath="$PROJECT_DIR$/libaryColor/libaryColor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_tour/library_tour.iml" filepath="$PROJECT_DIR$/library_tour/library_tour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewFilter/listviewFilter.iml" filepath="$PROJECT_DIR$/listviewFilter/listviewFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication45/myapplication45.iml" filepath="$PROJECT_DIR$/myapplication45/myapplication45.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shelfView2/shelfView2.iml" filepath="$PROJECT_DIR$/shelfView2/shelfView2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shelfview/shelfview.iml" filepath="$PROJECT_DIR$/shelfview/shelfview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPager3DExample/viewPager3DExample.iml" filepath="$PROJECT_DIR$/viewPager3DExample/viewPager3DExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wamp/wamp.iml" filepath="$PROJECT_DIR$/wamp/wamp.iml" />
+    </modules>
+  </component>
+</project>

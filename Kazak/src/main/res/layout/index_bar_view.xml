@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.madiyar.ikazak.kazak.traditions.section_list.IndexBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/index_bar_view_width"
+    android:layout_height="fill_parent"
+    android:padding="10dp" />

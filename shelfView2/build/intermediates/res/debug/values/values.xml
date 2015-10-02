@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/My%20Projects%231/MadiApps/shelfView2/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MyLibrary</string>
+    <string name="hello">Hello World, ShelfViewActivity!</string>
+</resources>

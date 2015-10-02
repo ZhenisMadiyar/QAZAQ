@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/imageViewKuiImage"
+        android:layout_alignLeft="@+id/textViewKuiName"
+        android:layout_alignStart="@+id/textViewKuiName" />
+
+    <TextView
+        android:id="@+id/textViewKuiName"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_below="@+id/textViewAuthorName"
+        android:layout_toRightOf="@+id/imageViewKuiImage"
+        android:layout_toEndOf="@+id/imageViewKuiImage" />
+
+    <ImageButton
+        android:id="@+id/imageButtonShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewKuiName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/imageButtonPlay"
+        android:layout_toRightOf="@+id/imageButtonPlay"
+        android:background="@drawable/share_kui" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewKuiName"
+        android:layout_alignStart="@+id/textViewKuiName"
+        android:layout_alignTop="@+id/imageButtonShare"
+        android:background="@drawable/kui_play" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonShare"
+        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@+id/imageButtonShare"
+        android:layout_toRightOf="@+id/imageButtonShare"
+        android:background="@drawable/download" />
+
+
+    <ImageView
+        android:id="@+id/imageViewKuiImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"/>
+</RelativeLayout>

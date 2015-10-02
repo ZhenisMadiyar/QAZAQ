@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/My%20Projects%231/MadiApps/color_library/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <color name="new_color">#AAAAFF</color>
+    <color name="prev_color">#FFAAAA</color>
+    <dimen name="ambilwarna_button_margin">2dp</dimen>
+    <dimen name="ambilwarna_color_height">30dp</dimen>
+    <dimen name="ambilwarna_color_width">60dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <string name="app_name">Color Picker</string>
+    <string name="arrow_content_desc">Arrow image</string>
+    <string name="color_picker_content_desc">Color picker image</string>
+    <string name="hue_cursor_content_desc">Hue image cursor</string>
+    <string name="hue_view_content_desc">Hue image</string>
+</resources>

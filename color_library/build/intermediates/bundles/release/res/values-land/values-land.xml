@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/madiyarzhenis/Desktop/My_android_Project/MadiApps/color_library/src/main/res/values-land/dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_color_height">24dp</dimen>
+    <dimen name="ambilwarna_color_width">50dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">180dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">190dp</dimen>
+</resources>

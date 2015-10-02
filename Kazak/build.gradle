@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        applicationId "com.madiyar.ikazak.kazak"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 7
+        versionName "1.7"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/slider.jar')
+    compile project(':library')
+    compile project(':color_library')
+    compile files('libs/antlr-runtime-3.0.jar')
+    compile files('libs/quaere-1.0-SNAPSHOT.jar')
+    compile project(':library_tour')
+    compile files('libs/gson-2.3.1.jar')
+    compile files('libs/picasso-2.5.2.jar')
+}

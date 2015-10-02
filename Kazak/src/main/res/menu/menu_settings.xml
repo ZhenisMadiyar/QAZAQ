@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/instagram"
+        android:title="Instagram"
+        android:icon="@drawable/insta"
+        android:showAsAction="always"/>
+    <item android:id="@+id/vk"
+        android:title="VK"
+        android:icon="@drawable/vkontakte"
+        android:showAsAction="always"/>
+    <item android:id="@+id/fb"
+        android:title="FB"
+        android:icon="@drawable/facebook"
+        android:showAsAction="always"/>
+</menu>

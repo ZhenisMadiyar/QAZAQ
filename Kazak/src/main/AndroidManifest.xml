@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madiyar.ikazak.kazak"
+    android:versionCode="7"
+    android:versionName="1.7">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <permission android:name="com.madiyar.ikazak.kazak.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.madiyar.ikazak.kazak.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ApplicationTour"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainMenu"/>
+        <activity android:name=".makal.MakalCategoryActivity"/>
+        <activity android:name=".makal.MakalListActivity"/>
+        <activity android:name=".Settings"
+            android:theme="@style/MyTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Language"/>
+        <activity android:name=".ertegiler.Ertegi"/>
+        <activity android:name=".kuileri.Kui"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".nationalGames.NationalGames"/>
+        <activity android:name=".traditions.Traditions"/>
+        <activity android:name=".writers.Writers"/>
+        <activity android:name=".writers.MainWriter"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".writers.LyricView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ertegiler.ErtegiView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".makal.FavouriteMakal"/>
+
+        <service
+            android:name=".makal.MP3PlayerService" >
+        </service>
+        <activity android:name=".traditions.TraditionView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".traditions.TraditionCategory"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".nationalGames.GameView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ertegiler.ErtegiList"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <!--
+                  IMPORTANT: If you change the package name of this sample app,
+                  change "com.parse.tutorials.pushnotifications" in the lines
+                  below to match the new package name.
+                -->
+                <category android:name="com.madiyar.ikazak.kazak" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver android:name=".ParseReceiver" >
+            <intent-filter>
+                <action android:name=".RECEIVE_PUSH" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".DisplayPush"
+            android:label="Push"/>
+
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QAZAQ</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="setting">Настройка</string>
+    <string name="language">Язык</string>
+
+    <string name="makal_act">Пословицы</string>
+    <string name="national_traditions">Нац.традиций</string>
+    <string name="national_games">Нац.игры</string>
+    <string name="writers">Писатели</string>
+    <string name="kuiler">Куи</string>
+    <string name="ertegiler">Сказки</string>
+    <string name="database">database_ru.sqlite</string>
+    <string name="favourite">Избранное</string>
+
+
+
+    <string-array name="tabsName">
+        <item>Профиль</item>
+        <item>Карта</item>
+        <item>Поиск</item>
+        <item>Социальный</item>
+    </string-array>
+    <string-array name="writer_name">
+        <item>Абай Кунанбаев</item>
+        <item>Ахмет Байтурсынов</item>
+        <item>Миржакып Дулатов</item>
+        <item>Фариза Онгарсынова</item>
+        <item>Ильяс Джансугуров</item>
+        <item>Касым Аманжолов</item>
+        <item>Магжан Жумабаев</item>
+        <item>Мукагали Макатаев</item>
+        <item>Мухтар Шаханов</item>
+        <item>Туманбай Мулдагалиев</item>
+        <item>Сакен Сейфуллин</item>
+        <item>Шакарим Кудайбердиев</item>
+        <item>Торайгыров Султанмахмут</item>
+        <item>Толеген Айбергенов</item>
+        <item>Ибрай Алтынсарин</item>
+        <item>Джамбул Джабаев</item>
+    </string-array>
+    <array name="category_sounds">
+        <item>@raw/ru_chelovek</item>
+        <item>@raw/ru_um</item>
+        <item>@raw/ru_sovest</item>
+        <item>@raw/ru_znanie</item>
+        <item>@raw/ru_druzhba</item>
+        <item>@raw/ru_iyazyk</item>
+        <item>@raw/ru_trud</item>
+        <item>@raw/ru_semya</item>
+        <item>@raw/ru_rodina</item>
+        <item>@raw/ru_pravda</item>
+    </array>
+    <string name="makal_sound">Не найден аудио для этой пословицы</string>
+    <string name="market_error">Не найден в Play Markete</string>
+    <string name="about">О программе</string>
+    <string name="buffering">Подождите...</string>
+    <string name="internet_connection">Please check your internet connection</string>
+</resources>

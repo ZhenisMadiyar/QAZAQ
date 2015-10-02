@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/My%20Projects%231/MadiApps/color_library/src/main/res/values-sw600dp/dimen.xml -->
+    <eat-comment/>
+    <dimen name="ambilwarna_button_margin">4dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">360dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">360dp</dimen>
+    <dimen name="ambilwarna_hueWidth">45dp</dimen>
+    <dimen name="ambilwarna_spacer">12dp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ColorPickerPreference" />
+            <option value="$PROJECT_DIR$/Kazak" />
+            <option value="$PROJECT_DIR$/Sample" />
+            <option value="$PROJECT_DIR$/ViewPager3D" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/color_library" />
+            <option value="$PROJECT_DIR$/colorpicker_lib" />
+            <option value="$PROJECT_DIR$/libary" />
+            <option value="$PROJECT_DIR$/libaryColor" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/library_tour" />
+            <option value="$PROJECT_DIR$/listviewFilter" />
+            <option value="$PROJECT_DIR$/myapplication45" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/shelfView2" />
+            <option value="$PROJECT_DIR$/shelfview" />
+            <option value="$PROJECT_DIR$/viewPager3DExample" />
+            <option value="$PROJECT_DIR$/wamp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

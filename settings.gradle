@@ -1,0 +1,5 @@
+include ':app', ':library', ':Kazak', ':Sample', ':ColorPickerPreference', ':libary', ':libaryColor', ':color_library', ':shelfview', ':ViewPager3D', ':wamp', ':library_tour', ':server', ':myapplication45'
+include ':colorpicker_lib'
+include ':shelfView2'
+include ':viewPager3DExample'
+include ':listviewFilter'
